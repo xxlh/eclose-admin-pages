@@ -11514,7 +11514,7 @@ var publicConfig = _store__WEBPACK_IMPORTED_MODULE_1__["default"].getters.public
 // 创建 axios 实例
 var service = axios__WEBPACK_IMPORTED_MODULE_0___default().create({
   // 服务端api地址
-  baseURL:  false ? 0 : ({"VUE_APP_ENV":"eclose","VUE_APP_NAME":"Eclose管理后台","VUE_APP_CONFIG_FILE":"config.eclose.js","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_API_BASE_URL,
+  baseURL:  false ? 0 : "http://api.eclose.eexx.me/admin",
   // baseURL: publicConfig.BASE_API,
   timeout: 5 * 60 * 1000,
   // 请求超时时间，5分钟（支持大文件上传）
